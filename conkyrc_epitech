@@ -1,0 +1,44 @@
+# -- Conky settings -- #
+background yes
+update_interval 1
+
+override_utf8_locale yes
+short_units yes
+double_buffer yes
+no_buffers yes
+
+text_buffer_size 2048
+imlib_cache_size 0
+
+own_window_type normal
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+own_window yes
+own_window_transparent yes
+#own_window_argb_visual yes
+#own_window_title pie/ring-chart + text
+
+border_inner_margin 0
+border_outer_margin 0
+
+minimum_size 256 256
+alignment bl
+gap_x 10
+gap_y 10
+# -- Graphics settings -- #
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+use_xft yes
+xftfont Roboto Medium:size=10
+xftalpha 0
+
+#at least one line (empty or not) after TEXT
+TEXT
+${if_existing /proc/net/route wlan0}
+#${exec python ~/.conky/conky-epitech/epitech.py}
+${goto 64}${voffset 10}${image ~/.conky/conky-epitech/log.png}
+${image ~/.conky/conky-epitech/tick.png}
+${else}
+Network disconnected
+Connect to a network to see your log chart
