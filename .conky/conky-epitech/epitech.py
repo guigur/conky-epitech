@@ -40,7 +40,7 @@ def getToken():
         #        print("il est pas null")
         
 	login_url = 'http://epitech-api.herokuapp.com/login'
-	login_values = {'login': 'arthau_g', 'password': 'sjs&9<yb'}
+	login_values = {'login': user, 'password': password}
         token_req = requests.get(login_url, params=login_values)
         eltoken = token_req.json()
         token = eltoken['token']
