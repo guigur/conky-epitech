@@ -4,9 +4,9 @@ A cool way to see your log time @Epitech
 # Dependencies
 This project have few dependencies with no script...
 You have to install:
-    [setuptools](https://bitbucket.org/pypa/setuptools/get/default.tar.gz#egg=setuptools-dev)
-    [Pycha](https://pypi.python.org/pypi/pycha/0.5.0)
-    [requests](http://docs.python-requests.org/en/latest/user/install/)
+* [setuptools](https://bitbucket.org/pypa/setuptools/get/default.tar.gz#egg=setuptools-dev)
+* [Pycha](https://pypi.python.org/pypi/pycha/0.5.0)
+* [requests](http://docs.python-requests.org/en/latest/user/install/)
 
 # Install
 1. First, install conky on your computer:
@@ -16,3 +16,10 @@ You have to install:
 3. put your login and unix passord in the epitech.py file
 4. Install **ALL** the dependencies
 5. start it from your home with ***conky -c .conky/conky-epitech/conkyrc_epitech***
+
+# Demo
+You can choose between Ringchart<br />
+![alt tag](https://raw.github.com/guigur/guigur/conky-epitech/master/demo/ring_demo.png)
+<br />
+Or Piechart<br />
+![alt tag](https://raw.github.com/guigur/guigur/conky-epitech/master/demo/pie_demo.png)
