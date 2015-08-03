@@ -19,7 +19,7 @@ You have to install:
 
 # Demo
 You can choose between Ringchart<br />
-![alt tag](https://raw.github.com/guigur/guigur/conky-epitech/master/demo/ring_demo.png)
+![alt tag](https://raw.githubusercontent.com/guigur/conky-epitech/master/demo/ring_demo.png)
 <br />
 Or Piechart<br />
-![alt tag](https://raw.github.com/guigur/guigur/conky-epitech/master/demo/pie_demo.png)
+![alt tag](https://raw.githubusercontent.com/guigur/conky-epitech/master/demo/pie_demo.png)
